@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+
+    <!-- Link CSS Files -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 719px)">
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 720px)">
+
+    <!-- Link JavaScript File -->
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <header>
+        <div id="logo">
+          <h1><a href="#">Contact Us</a></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="aboutCantorCollege.html">information about us</a></li>
+            <li><a href="contact-me.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Content Section -->
+      <main>
+        <section class="content">
+          <h2>Get in Touch</h2>
+          <div class="featured-image">
+            <img src="images/IMG_0170.jpeg" alt="Contact Us" class="resize-img">
+          </div>
+
+          <!-- Contact Form -->
+          <form action="thank-you.html" class="contact-form">
+            <div class="form-group">
+              <label for="yourName">Name:</label>
+              <input type="text" name="yourName" id="yourName" placeholder="Please Add Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <label for="tel">Telephone:</label>
+              <input type="tel" name="tel" id="tel" placeholder="Telephone Number" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="submit-container">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+          <img src="images/main_2529_image4.png" alt="Cantor College Logo" width="250" height="200" >
+          <h3>Where to Find Us</h3>
+          <ul class="contact-info">
+            <li>Main Street</li>
+            <li>Sheffield</li>
+            <li>SC4 2BB</li>
+            <li>Tel: (01321) 2340 235</li>
+            <li>Fax: (01321) 2340 236</li>
+            <li>Email: <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></li>
+          </ul>
+        </aside>
+      </main>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2024 Cantor College. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
